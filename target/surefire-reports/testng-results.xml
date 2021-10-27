@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-27T15:19:10 BDT" name="teqtestCases.NewRequestTest" finished-at="2021-10-27T15:22:02 BDT" duration-ms="171926">
+    <groups>
+    </groups>
+    <test started-at="2021-10-27T15:19:10 BDT" name="Test1" finished-at="2021-10-27T15:22:02 BDT" duration-ms="171926">
+      <class name="teqtestCases.NewRequestTest">
+        <test-method is-config="true" signature="GetBrowserName(java.lang.String)[pri:0, instance:teqtestCases.NewRequestTest@6a84a97d]" started-at="2021-10-27T15:19:11 BDT" name="GetBrowserName" finished-at="2021-10-27T15:19:11 BDT" duration-ms="34" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBrowserName -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:teqtestCases.NewRequestTest@6a84a97d]" started-at="2021-10-27T15:19:11 BDT" name="initialization" finished-at="2021-10-27T15:19:38 BDT" duration-ms="27285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="verifyloginBtn()[pri:0, instance:teqtestCases.NewRequestTest@6a84a97d]" started-at="2021-10-27T15:19:38 BDT" name="verifyloginBtn" finished-at="2021-10-27T15:19:50 BDT" duration-ms="12091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginBtn -->
+        <test-method signature="verifyRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:teqtestCases.NewRequestTest@6a84a97d]" started-at="2021-10-27T15:20:02 BDT" name="verifyRegister" data-provider="Signup" finished-at="2021-10-27T15:22:02 BDT" duration-ms="119241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jamal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Uddin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567809]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[customer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[106$ty0hgmk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegister -->
+      </class> <!-- teqtestCases.NewRequestTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- teqtestCases.NewRequestTest -->
+</testng-results>

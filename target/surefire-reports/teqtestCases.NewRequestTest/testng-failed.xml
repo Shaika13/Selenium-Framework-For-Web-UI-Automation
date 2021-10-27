@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [teqtestCases.NewRequestTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="teqUtil.TeqTestReporting"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="teqtestCases.NewRequestTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="GetBrowserName"/>
+          <include name="verifyRegister" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- teqtestCases.NewRequestTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [teqtestCases.NewRequestTest] -->
